@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+.vercel/
+__pycache__/
+*.pyc
+*.log
+scripts/output.txt
+scripts/error.txt

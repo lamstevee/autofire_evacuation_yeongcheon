@@ -1,0 +1,53 @@
+[
+  {
+    "id": "S1",
+    "name": "표준 시나리오",
+    "description": "보통 풍속, 표준 자원 배치. 안정적 대피 완료.",
+    "filename": "scenario_S1.json",
+    "params": {
+      "wind_speed_ms": 10.0,
+      "wind_direction": "W",
+      "fire_risk_index": 3,
+      "total_residents": 33,
+      "group_a_count": 3,
+      "group_b_count": 30,
+      "shuttle_count": 3,
+      "ambulance_count": 2,
+      "shuttle_capacity": 15
+    }
+  },
+  {
+    "id": "S2",
+    "name": "최악 시나리오 (강풍)",
+    "description": "강풍으로 확산 속도 상승. 기존 차량으론 골든타임 초과 위험.",
+    "filename": "scenario_S2.json",
+    "params": {
+      "wind_speed_ms": 18.0,
+      "wind_direction": "W",
+      "fire_risk_index": 5,
+      "total_residents": 66,
+      "group_a_count": 6,
+      "group_b_count": 60,
+      "shuttle_count": 3,
+      "ambulance_count": 3,
+      "shuttle_capacity": 15
+    }
+  },
+  {
+    "id": "S3",
+    "name": "대응 시나리오 (증차)",
+    "description": "S2와 동일 환경이지만 셔틀 대량 투입. 골든타임 내 완료.",
+    "filename": "scenario_S3.json",
+    "params": {
+      "wind_speed_ms": 18.0,
+      "wind_direction": "W",
+      "fire_risk_index": 5,
+      "total_residents": 110,
+      "group_a_count": 10,
+      "group_b_count": 100,
+      "shuttle_count": 10,
+      "ambulance_count": 5,
+      "shuttle_capacity": 15
+    }
+  }
+]
